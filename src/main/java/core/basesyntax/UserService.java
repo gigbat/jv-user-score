@@ -11,7 +11,6 @@ public class UserService {
                 return Integer.parseInt(split[1]);
             }
         }
-
         throw new UserNotFoundException("User with given email doesn't exist");
     }
 }
